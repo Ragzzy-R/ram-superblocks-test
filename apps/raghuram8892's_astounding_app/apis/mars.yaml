@@ -1,0 +1,33 @@
+blocks:
+  - name: Step1
+    step:
+      integration: 526a9f0a-7729-4641-ba7b-1b53b063ffb7
+      restapiintegration:
+        authType: api-key
+        body: ""
+        bodyType: jsonBody
+        fileFormKey: ""
+        fileName: ""
+        formData: []
+        headers: []
+        httpMethod: GET
+        jsonBody: ""
+        openApiAction: genericHttpRequest
+        openApiSpecRef: ""
+        params: []
+        responseType: auto
+        urlBase: ""
+        urlPath: mars-photos/api/v1/rovers/curiosity/photos?sol=10
+metadata:
+  description: ""
+  folder: ""
+  id: 4e188c18-e6e5-4621-a014-6b5f1c404af9
+  name: MARS
+  organization: 2bae110b-d781-4f41-b987-92f855045f10
+  tags: {}
+  timestamps:
+    updated: 2024-01-09T08:46:51.439Z
+  version: ""
+trigger:
+  application:
+    id: b30b3a70-eceb-4e10-89fd-04917635c24e

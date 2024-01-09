@@ -1,0 +1,33 @@
+blocks:
+  - name: Step1
+    step:
+      integration: 526a9f0a-7729-4641-ba7b-1b53b063ffb7
+      restapiintegration:
+        authType: api-key
+        body: ""
+        bodyType: jsonBody
+        fileFormKey: ""
+        fileName: ""
+        formData: []
+        headers: []
+        httpMethod: GET
+        jsonBody: ""
+        openApiAction: genericHttpRequest
+        openApiSpecRef: ""
+        params: []
+        responseType: auto
+        urlBase: ""
+        urlPath: planetary/apod
+metadata:
+  description: ""
+  folder: ""
+  id: c417fe94-5a06-4a08-99aa-0e12b7e18473
+  name: APOD
+  organization: 2bae110b-d781-4f41-b987-92f855045f10
+  tags: {}
+  timestamps:
+    updated: 2024-01-09T08:38:27.296Z
+  version: ""
+trigger:
+  application:
+    id: b30b3a70-eceb-4e10-89fd-04917635c24e

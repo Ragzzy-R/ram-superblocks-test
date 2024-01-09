@@ -1,0 +1,211 @@
+applicationId: b30b3a70-eceb-4e10-89fd-04917635c24e
+id: 8acf9944-e6cd-472a-bc9c-baa53011ac79
+isHidden: false
+layouts:
+  - dsl:
+      apis:
+        apiMap:
+          4e188c18-e6e5-4621-a014-6b5f1c404af9:
+            dynamicTriggerPathList:
+              - key: onError
+            id: 4e188c18-e6e5-4621-a014-6b5f1c404af9
+            onError:
+              - id: d0e125cb-68b3-4024-a9e5-15bb908ecd7f
+                message: "{{MARS.error}}"
+                style: error
+                type: showAlert
+          c417fe94-5a06-4a08-99aa-0e12b7e18473:
+            dynamicTriggerPathList:
+              - key: onError
+            id: c417fe94-5a06-4a08-99aa-0e12b7e18473
+            onError:
+              - id: ad2e5c27-558e-4b2f-a039-71941b7798be
+                message: "{{APOD.error}}"
+                style: error
+                type: showAlert
+      backgroundColor: none
+      cachedData:
+        pageLoadActions:
+          apiDeps:
+            APOD: []
+          apiNames:
+            - APOD
+      canExtend: true
+      children:
+        - canExtend: true
+          children:
+            - backgroundColor: none
+              canExtend: true
+              children:
+                - animateLoading: true
+                  collapseWhenHidden: false
+                  defaultImage: https://res.cloudinary.com/drako999/image/upload/v1589196259/default.png
+                  dynamicBindingPathList:
+                    - key: image
+                  dynamicTriggerPathList:
+                    - key: onClick
+                  fillContainer: true
+                  gridColumns: 50
+                  height:
+                    mode: gridUnit
+                    value: 33
+                  image: "{{APOD.response.hdurl}}"
+                  imageShape: RECTANGLE
+                  isLoading: false
+                  isVisible: true
+                  left:
+                    mode: gridUnit
+                    value: 9
+                  maxZoomLevel: 1
+                  onClick:
+                    - id: 10umbh78yw
+                      newWindow: true
+                  parentId: dwpvpsnarl
+                  top:
+                    mode: gridUnit
+                    value: 10
+                  type: IMAGE_WIDGET
+                  widgetId: yie59x3hjh
+                  widgetName: Image1
+                  width:
+                    mode: gridUnit
+                    value: 50
+                - animateLoading: true
+                  collapseWhenHidden: false
+                  dynamicBindingPathList:
+                    - key: text
+                  dynamicTriggerPathList: []
+                  gridColumns: 29
+                  height:
+                    mode: gridUnit
+                    value: 33
+                  iconPosition: LEFT
+                  isLoading: false
+                  isVisible: true
+                  left:
+                    mode: gridUnit
+                    value: 60
+                  parentId: dwpvpsnarl
+                  text: "{{APOD.response.explanation}}"
+                  textAlign: LEFT
+                  textColor: ""
+                  textStyle: NORMAL_TEXT
+                  textType: text
+                  top:
+                    mode: gridUnit
+                    value: 10
+                  type: TEXT_WIDGET
+                  verticalAlign: AUTO
+                  widgetId: mb4043qao9
+                  widgetName: Text1
+                  width:
+                    mode: gridUnit
+                    value: 29
+                - animateLoading: true
+                  collapseWhenHidden: false
+                  dynamicBindingPathList:
+                    - key: text
+                  dynamicPropertyPathList:
+                    - key: icon
+                  dynamicTriggerPathList: []
+                  gridColumns: 50
+                  height:
+                    mode: gridUnit
+                    value: 3
+                  icon: ""
+                  isLoading: false
+                  isVisible: true
+                  left:
+                    mode: gridUnit
+                    value: 9
+                  parentId: dwpvpsnarl
+                  text: "{{APOD.response.title}}"
+                  textAlign: LEFT
+                  textColor: ""
+                  textStyle: HEADING_1
+                  textType: text
+                  top:
+                    mode: gridUnit
+                    value: 5
+                  type: TEXT_WIDGET
+                  verticalAlign: AUTO
+                  widgetId: ygmkwex2no
+                  widgetName: Text2
+                  width:
+                    mode: gridUnit
+                    value: 50
+              containerStyle: none
+              detachFromLayout: true
+              dragDisabled: true
+              dynamicBindingPathList: []
+              dynamicTriggerPathList: []
+              gridColumns: 96
+              height:
+                mode: gridUnit
+                value: 43
+              isLoading: false
+              isVisible: true
+              layout: FIXED_GRID
+              left:
+                mode: gridUnit
+                value: 0
+              minHeight:
+                mode: px
+                value: 1292
+              parentId: lm2jrimm2x
+              top:
+                mode: gridUnit
+                value: 0
+              type: CANVAS_WIDGET
+              widgetId: dwpvpsnarl
+              widgetName: Canvas1
+              width:
+                mode: gridUnit
+                value: 0
+          detachFromLayout: true
+          dragDisabled: true
+          gridColumns: 96
+          height:
+            mode: gridUnit
+            value: 45
+          isLoading: false
+          isVisible: true
+          left:
+            mode: gridUnit
+            value: 0
+          parentId: "0"
+          shouldScrollContents: true
+          top:
+            mode: gridUnit
+            value: 0
+          type: SECTION_WIDGET
+          widgetId: lm2jrimm2x
+          widgetName: Section1
+          width:
+            mode: gridUnit
+            value: 96
+      detachFromLayout: true
+      dynamicBindingPathList: []
+      gridColumns: 96
+      height:
+        mode: gridUnit
+        value: 99
+      left:
+        mode: gridUnit
+        value: 0
+      stateVars:
+        stateVarMap: {}
+      timers:
+        timerMap: {}
+      top:
+        mode: gridUnit
+        value: 0
+      type: PAGE_WIDGET
+      version: 8
+      widgetId: "0"
+      widgetName: Page
+      width:
+        mode: gridUnit
+        value: 0
+    id: 8dcb95fd-590e-4484-b7eb-2cd781e4a6d9
+name: Page1

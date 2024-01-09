@@ -1,0 +1,9 @@
+{
+  "apis": {
+    "4e188c18-e6e5-4621-a014-6b5f1c404af9": "MARS",
+    "c417fe94-5a06-4a08-99aa-0e12b7e18473": "APOD"
+  },
+  "configType": "APPLICATION",
+  "defaultPageId": "8acf9944-e6cd-472a-bc9c-baa53011ac79",
+  "id": "b30b3a70-eceb-4e10-89fd-04917635c24e"
+}

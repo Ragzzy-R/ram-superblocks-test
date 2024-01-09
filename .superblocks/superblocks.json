@@ -1,0 +1,12 @@
+{
+  "configType": "ROOT",
+  "metadata": {
+    "cliVersion": "1.4.2"
+  },
+  "resources": {
+    "b30b3a70-eceb-4e10-89fd-04917635c24e": {
+      "location": "apps/raghuram8892's_astounding_app",
+      "resourceType": "APPLICATION"
+    }
+  }
+}
