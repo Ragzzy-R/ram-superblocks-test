@@ -28,7 +28,9 @@ layouts:
         pageLoadActions:
           apiDeps:
             APOD: []
+            MARS: []
           apiNames:
+            - MARS
             - APOD
       canExtend: true
       children:
@@ -134,6 +136,558 @@ layouts:
                   width:
                     mode: gridUnit
                     value: 50
+                - animateLoading: true
+                  canExtend: false
+                  children:
+                    - canExtend: false
+                      children:
+                        - children:
+                            - canExtend: false
+                              children:
+                                - animateLoading: true
+                                  collapseWhenHidden: false
+                                  defaultImage: https://res.cloudinary.com/drako999/image/upload/v1589196259/default.png
+                                  dynamicBindingPathList:
+                                    - key: image
+                                  dynamicTriggerPathList:
+                                    - key: onClick
+                                  fillContainer: true
+                                  gridColumns: 22
+                                  height:
+                                    mode: gridUnit
+                                    value: 12
+                                  image: "{{currentCell.img_src}}"
+                                  imageShape: RECTANGLE
+                                  isLoading: false
+                                  isVisible: true
+                                  left:
+                                    mode: gridUnit
+                                    value: 0
+                                  maxZoomLevel: 1
+                                  onClick:
+                                    - id: 3d3tohzsml
+                                      newWindow: true
+                                  parentId: 45badspzum
+                                  top:
+                                    mode: gridUnit
+                                    value: 0
+                                  type: IMAGE_WIDGET
+                                  widgetId: 8aytkfsd9p
+                                  widgetName: Image2
+                                  width:
+                                    mode: gridUnit
+                                    value: 22
+                                - animateLoading: true
+                                  collapseWhenHidden: false
+                                  dynamicBindingPathList:
+                                    - key: text
+                                  dynamicTriggerPathList: []
+                                  gridColumns: 22
+                                  height:
+                                    mode: gridUnit
+                                    value: 3
+                                  isLoading: false
+                                  isVisible: true
+                                  left:
+                                    mode: gridUnit
+                                    value: 0
+                                  parentId: 45badspzum
+                                  text: "{{currentCell.name}}"
+                                  textAlign: LEFT
+                                  textStyle: HEADING_2
+                                  textType: text
+                                  top:
+                                    mode: gridUnit
+                                    value: 12
+                                  type: TEXT_WIDGET
+                                  verticalAlign: BOTTOM
+                                  widgetId: e0v17txcq1
+                                  widgetName: Text3
+                                  width:
+                                    mode: gridUnit
+                                    value: 22
+                                - animateLoading: true
+                                  collapseWhenHidden: false
+                                  dynamicBindingPathList:
+                                    - key: text
+                                  dynamicTriggerPathList: []
+                                  gridColumns: 16
+                                  height:
+                                    mode: gridUnit
+                                    value: 3
+                                  isLoading: false
+                                  isVisible: true
+                                  left:
+                                    mode: gridUnit
+                                    value: 0
+                                  parentId: 45badspzum
+                                  text: "{{currentCell.earth_date}}"
+                                  textAlign: LEFT
+                                  textStyle: NORMAL_TEXT
+                                  textType: text
+                                  top:
+                                    mode: gridUnit
+                                    value: 15
+                                  type: TEXT_WIDGET
+                                  verticalAlign: AUTO
+                                  widgetId: 1o3g4arbex
+                                  widgetName: Text4
+                                  width:
+                                    mode: gridUnit
+                                    value: 16
+                                - animateLoading: true
+                                  collapseWhenHidden: false
+                                  dynamicBindingPathList:
+                                    - key: text
+                                  dynamicTriggerPathList: []
+                                  gridColumns: 6
+                                  height:
+                                    mode: gridUnit
+                                    value: 3
+                                  isLoading: false
+                                  isVisible: true
+                                  left:
+                                    mode: gridUnit
+                                    value: 16
+                                  parentId: 45badspzum
+                                  text: "{{currentCell.camera.name}}"
+                                  textAlign: RIGHT
+                                  textStyle: NORMAL_TEXT
+                                  textType: text
+                                  top:
+                                    mode: gridUnit
+                                    value: 15
+                                  type: TEXT_WIDGET
+                                  verticalAlign: AUTO
+                                  widgetId: 9cdahxag9m
+                                  widgetName: Text5
+                                  width:
+                                    mode: gridUnit
+                                    value: 6
+                              collapseWhenHidden: false
+                              containerStyle: none
+                              detachFromLayout: true
+                              disablePropertyPane: true
+                              dragDisabled: true
+                              gridColumns: 22
+                              height:
+                                mode: gridUnit
+                                value: 19
+                              ignoreCollision: true
+                              isLoading: false
+                              isVisible: true
+                              left:
+                                mode: gridUnit
+                                value: 0
+                              minHeight:
+                                mode: px
+                                value: 228
+                              openParentPropertyPane: true
+                              parentId: ukp08urwop
+                              resizeDisabled: true
+                              top:
+                                mode: gridUnit
+                                value: 0
+                              type: CANVAS_WIDGET
+                              widgetId: 45badspzum
+                              widgetName: Canvas3
+                              width:
+                                mode: gridUnit
+                                value: 22
+                          collapseWhenHidden: false
+                          containerStyle: none
+                          disablePropertyPane: true
+                          disallowCopy: true
+                          dragDisabled: true
+                          gridColumns: 22
+                          height:
+                            mode: gridUnit
+                            value: 21
+                          isDeletable: false
+                          isLoading: false
+                          isVisible: true
+                          left:
+                            mode: gridUnit
+                            value: 0
+                          openParentPropertyPane: true
+                          padding:
+                            bottom:
+                              mode: px
+                              value: 0
+                            left:
+                              mode: px
+                              value: 0
+                            right:
+                              mode: px
+                              value: 0
+                            top:
+                              mode: px
+                              value: 0
+                          parentId: 8g7hf10apy
+                          resizeDisabled: false
+                          top:
+                            mode: gridUnit
+                            value: 0
+                          type: CONTAINER_WIDGET
+                          widgetId: ukp08urwop
+                          widgetName: Container1
+                          width:
+                            mode: gridUnit
+                            value: 22
+                      collapseWhenHidden: false
+                      containerStyle: none
+                      detachFromLayout: true
+                      disablePropertyPane: true
+                      dropDisabled: true
+                      gridColumns: 80
+                      height:
+                        mode: gridUnit
+                        value: 45
+                      isLoading: false
+                      isVisible: true
+                      left:
+                        mode: gridUnit
+                        value: 0
+                      minHeight:
+                        mode: px
+                        value: 540
+                      openParentPropertyPane: true
+                      padding:
+                        bottom:
+                          mode: px
+                          value: 0
+                        left:
+                          mode: px
+                          value: 0
+                        right:
+                          mode: px
+                          value: 0
+                        top:
+                          mode: px
+                          value: 0
+                      parentId: xs7w2i8n2r
+                      resizeDisabled: true
+                      top:
+                        mode: gridUnit
+                        value: 0
+                      type: CANVAS_WIDGET
+                      widgetId: 8g7hf10apy
+                      widgetName: Canvas2
+                      width:
+                        mode: gridUnit
+                        value: 80
+                  collapseWhenHidden: false
+                  columnCount: 4
+                  containerStyle: none
+                  dynamicBindingPathList:
+                    - key: gridBindings.Text3.text
+                    - key: gridData
+                    - key: gridBindings.Image2.image
+                    - key: gridBindings.Text4.text
+                    - key: gridBindings.Text5.text
+                  dynamicTriggerPathList:
+                    - key: onCellClicked
+                  enhancements: true
+                  gridBindings:
+                    Canvas2:
+                      canExtend: false
+                      children:
+                        - ukp08urwop
+                      collapseWhenHidden: false
+                      containerStyle: none
+                      detachFromLayout: true
+                      disablePropertyPane: true
+                      dropDisabled: true
+                      gridColumns: 66
+                      height:
+                        mode: gridUnit
+                        value: 51
+                      isLoading: false
+                      isVisible: true
+                      left:
+                        mode: gridUnit
+                        value: 0
+                      openParentPropertyPane: true
+                      padding:
+                        bottom:
+                          mode: px
+                          value: 0
+                        left:
+                          mode: px
+                          value: 0
+                        right:
+                          mode: px
+                          value: 0
+                        top:
+                          mode: px
+                          value: 0
+                      parentId: xs7w2i8n2r
+                      resizeDisabled: true
+                      top:
+                        mode: gridUnit
+                        value: 0
+                      type: CANVAS_WIDGET
+                      widgetId: 8g7hf10apy
+                      widgetName: Canvas2
+                      width:
+                        mode: gridUnit
+                        value: 66
+                    Canvas3:
+                      canExtend: false
+                      children:
+                        - 8aytkfsd9p
+                        - e0v17txcq1
+                        - 1o3g4arbex
+                        - 9cdahxag9m
+                      collapseWhenHidden: false
+                      containerStyle: none
+                      detachFromLayout: true
+                      disablePropertyPane: true
+                      dragDisabled: true
+                      gridColumns: 22
+                      height:
+                        mode: gridUnit
+                        value: 21
+                      ignoreCollision: true
+                      isLoading: false
+                      isVisible: true
+                      left:
+                        mode: gridUnit
+                        value: 0
+                      openParentPropertyPane: true
+                      parentId: ukp08urwop
+                      resizeDisabled: true
+                      top:
+                        mode: gridUnit
+                        value: 0
+                      type: CANVAS_WIDGET
+                      widgetId: 45badspzum
+                      widgetName: Canvas3
+                      width:
+                        mode: gridUnit
+                        value: 22
+                    Container1:
+                      children:
+                        - 45badspzum
+                      collapseWhenHidden: false
+                      containerStyle: none
+                      disablePropertyPane: true
+                      disallowCopy: true
+                      dragDisabled: true
+                      gridColumns: 22
+                      height:
+                        mode: gridUnit
+                        value: 21
+                      isDeletable: false
+                      isLoading: false
+                      isVisible: true
+                      left:
+                        mode: gridUnit
+                        value: 0
+                      openParentPropertyPane: true
+                      padding:
+                        bottom:
+                          mode: px
+                          value: 0
+                        left:
+                          mode: px
+                          value: 0
+                        right:
+                          mode: px
+                          value: 0
+                        top:
+                          mode: px
+                          value: 0
+                      parentId: 8g7hf10apy
+                      resizeDisabled: false
+                      top:
+                        mode: gridUnit
+                        value: 0
+                      type: CONTAINER_WIDGET
+                      widgetId: ukp08urwop
+                      widgetName: Container1
+                      width:
+                        mode: gridUnit
+                        value: 22
+                    Image2:
+                      animateLoading: true
+                      collapseWhenHidden: false
+                      defaultImage: https://res.cloudinary.com/drako999/image/upload/v1589196259/default.png
+                      dynamicBindingPathList:
+                        - key: image
+                      dynamicTriggerPathList: []
+                      fillContainer: true
+                      gridColumns: 22
+                      height:
+                        mode: gridUnit
+                        value: 12
+                      image: |-
+                        {{Grid1.gridData.map((currentCell, currentIndex) => {
+                                      return (function(){
+                                        try {
+                                          return  currentCell.img_src;
+                                        } catch (err) {
+                                          console.error("Error executing currentCell js in Grid component Grid1", err);
+                                          return "";
+                                        }
+                                      })();
+                                    })}}
+                      imageShape: RECTANGLE
+                      isLoading: false
+                      isVisible: true
+                      left:
+                        mode: gridUnit
+                        value: 0
+                      maxZoomLevel: 1
+                      onClick:
+                        - id: 3d3tohzsml
+                          newWindow: true
+                      parentId: 45badspzum
+                      top:
+                        mode: gridUnit
+                        value: 0
+                      type: IMAGE_WIDGET
+                      widgetId: 8aytkfsd9p
+                      widgetName: Image2
+                      width:
+                        mode: gridUnit
+                        value: 22
+                    Text3:
+                      animateLoading: true
+                      collapseWhenHidden: false
+                      dynamicBindingPathList:
+                        - key: text
+                      dynamicTriggerPathList: []
+                      gridColumns: 22
+                      height:
+                        mode: gridUnit
+                        value: 3
+                      isLoading: false
+                      isVisible: true
+                      left:
+                        mode: gridUnit
+                        value: 0
+                      parentId: 45badspzum
+                      text: "{{Grid1.gridData.map((currentCell) => currentCell.name)}}"
+                      textAlign: LEFT
+                      textStyle: HEADING_2
+                      textType: text
+                      top:
+                        mode: gridUnit
+                        value: 12
+                      type: TEXT_WIDGET
+                      verticalAlign: BOTTOM
+                      widgetId: e0v17txcq1
+                      widgetName: Text3
+                      width:
+                        mode: gridUnit
+                        value: 22
+                    Text4:
+                      animateLoading: true
+                      collapseWhenHidden: false
+                      dynamicBindingPathList:
+                        - key: text
+                      dynamicTriggerPathList: []
+                      gridColumns: 16
+                      height:
+                        mode: gridUnit
+                        value: 3
+                      isLoading: false
+                      isVisible: true
+                      left:
+                        mode: gridUnit
+                        value: 0
+                      parentId: 45badspzum
+                      text: |-
+                        {{Grid1.gridData.map((currentCell, currentIndex) => {
+                                      return (function(){
+                                        try {
+                                          return  currentCell.earth_date;
+                                        } catch (err) {
+                                          console.error("Error executing currentCell js in Grid component Grid1", err);
+                                          return "";
+                                        }
+                                      })();
+                                    })}}
+                      textAlign: LEFT
+                      textStyle: NORMAL_TEXT
+                      textType: text
+                      top:
+                        mode: gridUnit
+                        value: 15
+                      type: TEXT_WIDGET
+                      verticalAlign: AUTO
+                      widgetId: 1o3g4arbex
+                      widgetName: Text4
+                      width:
+                        mode: gridUnit
+                        value: 16
+                    Text5:
+                      animateLoading: true
+                      collapseWhenHidden: false
+                      dynamicBindingPathList:
+                        - key: text
+                      dynamicTriggerPathList: []
+                      gridColumns: 6
+                      height:
+                        mode: gridUnit
+                        value: 3
+                      isLoading: false
+                      isVisible: true
+                      left:
+                        mode: gridUnit
+                        value: 16
+                      parentId: 45badspzum
+                      text: |-
+                        {{Grid1.gridData.map((currentCell, currentIndex) => {
+                                      return (function(){
+                                        try {
+                                          return  currentCell.camera.name;
+                                        } catch (err) {
+                                          console.error("Error executing currentCell js in Grid component Grid1", err);
+                                          return "";
+                                        }
+                                      })();
+                                    })}}
+                      textAlign: RIGHT
+                      textStyle: NORMAL_TEXT
+                      textType: text
+                      top:
+                        mode: gridUnit
+                        value: 15
+                      type: TEXT_WIDGET
+                      verticalAlign: AUTO
+                      widgetId: 9cdahxag9m
+                      widgetName: Text5
+                      width:
+                        mode: gridUnit
+                        value: 6
+                  gridCellScrollable: false
+                  gridColumns: 80
+                  gridData: "{{MARS.response.photos}}"
+                  height:
+                    mode: gridUnit
+                    value: 45
+                  isLoading: false
+                  isSearchable: true
+                  isVisible: true
+                  left:
+                    mode: gridUnit
+                    value: 9
+                  onCellClicked:
+                    - id: tpiv2qpqcc
+                      newWindow: true
+                  parentId: dwpvpsnarl
+                  title: Pics from Curiosity Rover
+                  top:
+                    mode: gridUnit
+                    value: 45
+                  type: GRID_WIDGET
+                  widgetId: xs7w2i8n2r
+                  widgetName: Grid1
+                  width:
+                    mode: gridUnit
+                    value: 80
               containerStyle: none
               detachFromLayout: true
               dragDisabled: true
@@ -142,7 +696,7 @@ layouts:
               gridColumns: 96
               height:
                 mode: gridUnit
-                value: 43
+                value: 90
               isLoading: false
               isVisible: true
               layout: FIXED_GRID
@@ -167,7 +721,7 @@ layouts:
           gridColumns: 96
           height:
             mode: gridUnit
-            value: 45
+            value: 92
           isLoading: false
           isVisible: true
           left:
